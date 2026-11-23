@@ -30,7 +30,7 @@
   <main id="main">
     <section class="hero" aria-labelledby="title">
       <div class="hero-visual">
-        <img src="assets/moonlit-yukimaru.webp" srcset="assets/moonlit-yukimaru-small.webp 720w, assets/moonlit-yukimaru.webp 1672w" sizes="100vw" alt="大きな満月を背に、丘に立つ盾うさぎの雪丸" width="1672" height="941" fetchpriority="high">
+        <img src="assets/hero-bridge.webp" srcset="assets/hero-bridge-small.webp 900w, assets/hero-bridge.webp 1920w" sizes="100vw" alt="木の橋を、盾うさぎの雪丸、紅太、柿丸が一列になって進んでいく" width="1920" height="1080" fetchpriority="high">
       </div>
       <div class="shell hero-inner">
         <div class="hero-copy">
@@ -55,49 +55,80 @@
           <p>あるとき神さまたちは、昔の記憶を失い、うさぎやたぬきの姿に。</p>
           <p>山の水が細りはじめたある朝、白うさぎの雪丸は、水をもとめて旅に出ます。</p>
         </div>
-        <img class="story-art" src="assets/yukimaru-departure.webp" alt="朝焼けのなか、里のうさぎたちの前で山を見上げる雪丸" width="1120" height="630" loading="lazy">
+        <img class="story-art" src="assets/story-dusk.webp" alt="夕暮れの橋を、雪丸たち四人が並んで帰っていく" width="1400" height="788" loading="lazy">
       </div>
     </section>
 
     <section class="game section" id="game" aria-labelledby="game-title">
-      <div class="shell game-grid">
-        <div class="game-copy">
-          <h2 id="game-title">うさたぬ合戦の遊び方</h2>
-          <ul class="features">
-            <li>
-              <span class="feature-mark" aria-hidden="true">進</span>
-              <div><h3>歩く、出会う、戦う</h3><p>うさぎたちは自動で道を進み、敵に出会うとその場で合戦。戦った相手が心をひらいて、旅の仲間になることも。</p></div>
-            </li>
-            <li>
-              <span class="feature-mark" aria-hidden="true">育</span>
-              <div><h3>育てて、もう一度</h3><p>負けてもコインと育成は持ち越し。強くなった仲間と、前に負けた場所に再挑戦。育てるうちに、仲間の姿も少しずつ変わっていきます。</p></div>
-            </li>
-            <li>
-              <span class="feature-mark" aria-hidden="true">技</span>
-              <div><h3>奥義に宿る、神さまの面影</h3><p>仲間たちはみんな、動物の姿になった神さま。奥義の決め手となる一瞬、光の輪郭となった本来の姿が重なります。</p></div>
-            </li>
-          </ul>
-        </div>
-        <figure class="forest">
-          <img src="assets/forest.webp" alt="水場を守るたぬきたちと、木の盾を持った雪丸が向かい合う" width="1120" height="630" loading="lazy">
-          <figcaption>雪丸が出会った、水場のたぬきたち</figcaption>
-        </figure>
+      <div class="shell">
+        <h2 id="game-title">うさたぬ合戦の遊び方</h2>
+        <p class="game-lead">うさぎたちは自動で進み、自動で戦います。あなたがするのは、ここぞの「踏ん張り」と、仲間を育てること。画面はすべて、実際のゲーム画面です。</p>
+        <ol class="steps">
+          <li class="step">
+            <div class="step-copy">
+              <span class="step-no" aria-hidden="true">一</span>
+              <h3>歩く、出会う、戦う</h3>
+              <p>うさぎたちは自動で道を進み、敵に出会うとその場で合戦。勝てばそのまま先へ。戦った相手が心をひらいて、旅の仲間になることも。</p>
+            </div>
+            <figure class="step-shot">
+              <a href="assets/game-meet.webp" aria-label="戦闘画面を拡大"><img src="assets/game-meet.webp" alt="森の道で、雪丸たちが大きなたぬきと向かい合う戦闘画面。たぬきの頭の上には「！」が出ている" width="1600" height="900" loading="lazy"></a>
+              <figcaption>敵の頭に「！」が出たら、受けどき。</figcaption>
+            </figure>
+          </li>
+          <li class="step">
+            <div class="step-copy">
+              <span class="step-no" aria-hidden="true">二</span>
+              <h3>ここぞは、踏ん張る</h3>
+              <p>敵の大きな一撃の前では、雪丸が足を踏ん張って盾を構えます。タイミングよくボタンを押せば、完璧に受け止めて、はね返せます。</p>
+            </div>
+            <figure class="step-shot">
+              <a href="assets/game-brace.webp" aria-label="踏ん張る場面を拡大"><img src="assets/game-brace.webp" alt="腰を落として木の盾を構える雪丸。奥には茶釜を背負ったたぬきが立っている" width="1600" height="900" loading="lazy"></a>
+              <figcaption>ぴょこぴょこ進むうさぎが、たぬきの前では真剣な顔に。</figcaption>
+            </figure>
+          </li>
+          <li class="step">
+            <div class="step-copy">
+              <span class="step-no" aria-hidden="true">三</span>
+              <h3>絵巻をうめて、育てる</h3>
+              <p>戦いで集めた素材で、育成の絵巻のマスをひとつずつ埋めていきます。体力や攻撃が少しずつ上がり、やがて新しい技も。</p>
+            </div>
+            <figure class="step-shot">
+              <a href="assets/game-scroll.webp" aria-label="育成の絵巻を拡大"><img src="assets/game-scroll.webp" alt="雪丸の立ち絵と、素材を使って埋める丸い絵巻のマスが並ぶ育成画面" width="1600" height="900" loading="lazy"></a>
+              <figcaption>雪丸の絵巻。マスを埋めるほど強くなる。</figcaption>
+            </figure>
+          </li>
+          <li class="step">
+            <div class="step-copy">
+              <span class="step-no" aria-hidden="true">四</span>
+              <h3>負けても、育てて、もう一度</h3>
+              <p>負けても、コインと育成はそのまま持ち越し。育てた同じ仲間で、前に負けた場所へ。昨日越えられなかった道を、今日は越えていきます。</p>
+            </div>
+            <figure class="step-shot">
+              <a href="assets/game-map.webp" aria-label="ステージの地図を拡大"><img src="assets/game-map.webp" alt="川と森と山をえがいた絵地図に、1-1から1-8までのステージが道でつながっている" width="1600" height="900" loading="lazy"></a>
+              <figcaption>絵地図の道をたどって、一章の山へ。</figcaption>
+            </figure>
+          </li>
+        </ol>
       </div>
       <div class="shell game-screens">
-        <h3>ゲーム画面</h3>
+        <h3>そのほかのゲーム画面</h3>
         <p class="screen-note">開発中の画面です。画像を選ぶと拡大できます。</p>
         <div class="screen-grid">
           <figure>
-            <a href="assets/game-title.webp" aria-label="タイトル画面を拡大">
-              <img src="assets/game-title.webp" alt="桜の里に仲間たちが並ぶ、うさたぬ合戦のタイトル画面" width="1920" height="1080" loading="lazy">
-            </a>
+            <a href="assets/game-title.webp" aria-label="タイトル画面を拡大"><img src="assets/game-title.webp" alt="桜の里に仲間たちが並ぶ、うさたぬ合戦のタイトル画面" width="1600" height="900" loading="lazy"></a>
             <figcaption>タイトル画面</figcaption>
           </figure>
           <figure>
-            <a href="assets/game-scroll.webp" aria-label="雪丸の絵巻を拡大">
-              <img src="assets/game-scroll.webp" alt="雪丸の立ち絵と、素材を使って埋める絵巻のマスが並ぶ育成画面" width="1560" height="720" loading="lazy">
-            </a>
-            <figcaption>雪丸の絵巻<span>集めた素材でマスを埋め、仲間を育てます。</span></figcaption>
+            <a href="assets/game-home.webp" aria-label="里の画面を拡大"><img src="assets/game-home.webp" alt="桜と水車の里に立つ雪丸。育てる、仲間、出陣のボタンが並ぶ" width="1600" height="900" loading="lazy"></a>
+            <figcaption>里<span>出陣の前に、仲間を育てます。</span></figcaption>
+          </figure>
+          <figure>
+            <a href="assets/game-attack.webp" aria-label="攻撃の場面を拡大"><img src="assets/game-attack.webp" alt="雪丸が木の盾を突き出し、茶釜のたぬきに向かっていく戦闘画面" width="1600" height="900" loading="lazy"></a>
+            <figcaption>合戦<span>盾を突き出して、押し返す。</span></figcaption>
+          </figure>
+          <figure>
+            <a href="assets/game-clear.webp" aria-label="突破の結果画面を拡大"><img src="assets/game-clear.webp" alt="「突破！」の文字とコインの結果が出ている画面" width="1600" height="900" loading="lazy"></a>
+            <figcaption>突破！<span>コインと素材を持って、次のステージへ。</span></figcaption>
           </figure>
         </div>
       </div>
@@ -108,31 +139,33 @@
         <h2 class="companions-heading" id="companions-title">旅の仲間たち</h2>
         <div class="companion-lineup">
           <figure>
-            <img src="assets/companion-yukimaru.webp" alt="青いマフラーを巻き、丸い盾を持つ雪丸" width="440" height="720" loading="lazy">
+            <img src="assets/ally-yukimaru.webp" alt="青いマフラーを巻き、丸い木の盾を抱えた白うさぎの雪丸" width="610" height="900" loading="lazy">
             <figcaption><span>盾の</span><strong>雪丸</strong></figcaption>
           </figure>
           <figure>
-            <img src="assets/companion-kota.webp" alt="紅葉の衣をまとい、槍を持つ紅太" width="440" height="720" loading="lazy">
+            <img src="assets/ally-kota.webp" alt="赤いマフラーをなびかせ、竹の槍を持つ茶色いうさぎの紅太" width="616" height="900" loading="lazy">
             <figcaption><span>槍の</span><strong>紅太</strong></figcaption>
           </figure>
           <figure>
-            <img src="assets/companion-kakimaru.webp" alt="橙色の衣をまとい、葉のついた枝を手にする柿丸" width="440" height="720" loading="lazy">
+            <img src="assets/ally-kakimaru.webp" alt="柿の絵の前かけをして、葉のついた枝を高くかかげる子だぬきの柿丸" width="600" height="900" loading="lazy">
             <figcaption><span>化け術の</span><strong>柿丸</strong></figcaption>
           </figure>
           <figure>
-            <img src="assets/companion-bunbuku.webp" alt="青い波柄の衣をまとい、茶釜を持つぶんぶく" width="440" height="720" loading="lazy">
+            <img src="assets/ally-bunbuku.webp" alt="波柄の鉄の茶釜を背負った、どっしりしたたぬきのぶんぶく" width="599" height="900" loading="lazy">
             <figcaption><span>湯けむりの</span><strong>ぶんぶく</strong></figcaption>
           </figure>
         </div>
-        <div class="companion-forms">
-          <figure>
-            <img src="assets/moon-viewing-gods.webp" alt="満月の下で月見を楽しむ、神さまだったころの雪丸、紅太、柿丸、ぶんぶく" width="1120" height="630" loading="lazy">
-            <figcaption>むかし、神さまでした。</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/animal-forms.webp" alt="雲の上に並ぶ、うさぎとたぬきの姿の四人" width="960" height="540" loading="lazy">
-            <figcaption>いまは、もふもふ。</figcaption>
-          </figure>
+        <div class="gods">
+          <div class="gods-copy">
+            <h3>むかし、神さまでした。</h3>
+            <p>仲間たちは、動物の姿になった神さまたち。奥義を決める一瞬だけ、本来の神さまの姿がよみがえります。</p>
+          </div>
+          <div class="gods-row">
+            <figure><img src="assets/god-yukimaru.webp" alt="白い髪にうさぎの耳、波柄の衣をまとって微笑む、神さまの姿の雪丸" width="609" height="900" loading="lazy"><figcaption>雪丸</figcaption></figure>
+            <figure><img src="assets/god-kouta.webp" alt="にやりと笑い、もみじの風をまとう、神さまの姿の紅太" width="700" height="700" loading="lazy"><figcaption>紅太</figcaption></figure>
+            <figure><img src="assets/god-kakimaru.webp" alt="片目をつぶって舌を出す、神さまの姿の柿丸" width="693" height="700" loading="lazy"><figcaption>柿丸</figcaption></figure>
+            <figure><img src="assets/god-bunbuku.webp" alt="湯のみを手に大笑いする、神さまの姿のぶんぶく" width="707" height="700" loading="lazy"><figcaption>ぶんぶく</figcaption></figure>
+          </div>
         </div>
       </div>
     </section>
@@ -166,7 +199,7 @@
               <span class="movie-play" aria-hidden="true"><span class="play-icon"></span></span>
               <span class="duration">0:24</span>
             </div>
-            <div class="movie-copy"><h3>戦闘ショート</h3><span>満月を背に、盾うさぎが跳ぶ。</span></div>
+            <div class="movie-copy"><h3>戦闘ショート</h3><span>盾を構える、うさぎの合戦。</span></div>
           </a>
         </div>
       </div>
